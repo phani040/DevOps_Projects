@@ -8,7 +8,7 @@ WORKDIR /app
 
 #Copy the resquirements file
 
-COPY requirements.txt
+COPY requirements.txt .
 
 
 #install the project dependecies
